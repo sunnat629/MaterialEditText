@@ -4,8 +4,6 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="login">LogIn</string>
-    <string name="title_activity_main2">Main2Activity</string>
-    <string name="title_activity_main3">Main3Activity</string>
     <string name="forgot">Forgot Password?</string>
     <string name="error_email">Invalid Email ID</string>
     <string name="success">You have successfully logged in.</string>

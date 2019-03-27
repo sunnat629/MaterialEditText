@@ -8,6 +8,7 @@
         android:layout_height="match_parent"
         tools:context=".ui.activities.MainActivity">
 
+    <!--upper view-->
     <View
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -18,6 +19,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toTopOf="@+id/guideline2" android:id="@+id/view"/>
 
+    <!--lower view-->
     <View
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -29,6 +31,7 @@
             app:layout_constraintTop_toTopOf="@+id/guideline2"/>
 
 
+    <!--main content-->
     <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -56,6 +59,7 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
+        <!--login button-->
         <com.google.android.material.button.MaterialButton
                 android:id="@+id/label_login"
                 style="@style/TextButton"
@@ -73,8 +77,6 @@
                 android:textColor="@android:color/white"
                 app:elevation="0dp" android:insetLeft="50dp"
                 android:insetRight="50dp" app:cornerRadius="30dp"/>
-
-
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     <androidx.constraintlayout.widget.Guideline
@@ -97,6 +99,7 @@
             android:id="@+id/guideline3"
             app:layout_constraintGuide_percent=".85"
             android:orientation="horizontal"/>
+
     <TextView
             android:text="@string/forgot"
             android:textAllCaps="true"
